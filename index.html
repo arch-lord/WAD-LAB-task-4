@@ -1,0 +1,121 @@
+<html>
+<head>
+    <title>Activity-2 WAD-LAB</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\mkaus\Pictures\wallpaper\shanks.jpg">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .row {
+            display: flex;
+            flex-shrink: 0;
+        }
+
+        .row1 {
+            height: 20%;
+        }
+
+        .row2 {
+            height: 20%;
+        }
+
+        .row3 {
+            height: 60%;
+        }
+
+        .col {
+            flex: 1;
+            border: 1px solid #ccc;
+            overflow: auto;
+        }
+
+        .grid {
+            display: flex;
+        }
+
+        .grid div {
+            flex: 1;
+            border: 1px solid #ccc;
+            overflow: auto;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            border: 1px solid #ccc;
+        }
+
+        .links div {
+            flex: 1;
+            border: 1px solid #ccc;
+        }
+
+        .description {
+            flex: 5;
+            border: 1px solid #ccc;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Row 1 -->
+    <div class="row row1">
+        <div class="col" id="logo">
+            <img src="https://play-lh.googleusercontent.com/rItEHZ2nmF6qH1MAAx9a1JrCt9RHu1358WD4aWREaPY0IK2Dn8aZFim_o2Dv7IbafQ=w240-h480-rw" alt="Logo" style="width: 100%; height: 100%; object-fit: contain;">
+        </div>
+        <div class="col" id="header">
+            <h2>Anime & Manga</h2>
+        </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row row2 grid">
+        <div id="home">
+            <a href="home1.html" target="description-frame">Home</a>
+        </div>
+        <div id="about">
+            <a href="about1.html" target="description-frame">About Us</a>
+        </div>
+        <div id="contact">
+            <a href="contact1.html" target="description-frame">Contact</a>
+        </div>
+        <div id="privacy">
+            <a href="privacy1.html" target="description-frame">Privacy Policy</a>
+        </div>
+        <div id="login">
+            <a href="login1.html" target="description-frame">Login</a>
+        </div>
+        <div id="register">
+            <a href="register1.html" target="description-frame">Register</a>
+        </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="row row3">
+        <div class="links">
+            <div id="anilist-link1">
+                <a href="anilist-link1.html" target="description-frame">Anime List 1</a>
+            </div>
+            <div id="anilist-link2">
+                <a href="anilist-link2.html" target="description-frame">Anime List 2</a>
+            </div>
+            <div id="anilist-link3">
+                <a href="anilist-link3.html" target="description-frame">Anime List 3</a>
+            </div>
+            <div id="anilist-link4">
+                <a href="anilist-link4.html" target="description-frame">Anime List 4</a>
+            </div>
+        </div>
+        <div class="description" id="description">
+            <h2>Welcome</h2>
+            <p>Select a link to display its content here.</p>
+        </div>
+    </div>
+</body>
+</html>
